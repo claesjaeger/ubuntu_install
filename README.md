@@ -41,7 +41,7 @@
   <p align="center">
     This project is a collection of scripts that installs the programs and packes I use in Ubuntu.
     <br />
-    <a href="https://github.com/claesjaeger/ubuntu_install/docs"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/claesjaeger/ubuntu_install/tree/master/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/claesjaeger/ubuntu_install">View Demo</a>
@@ -85,12 +85,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
+This project is to make a re-install much easier
 
 ### Built With
 
@@ -119,10 +114,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/claesjaeger/ubuntu_install.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+2. Install 
 
 
 
@@ -165,7 +157,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Claes Jæger-  - email
+Claes Jæger - claeslund@gmail.com
 
 Project Link: [https://github.com/claesjaeger/ubuntu_install](https://github.com/claesjaeger/ubuntu_install)
 

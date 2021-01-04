@@ -12,22 +12,12 @@
 #		* syslinux-utils
 #		* unzip
 #		* bash-builtins
-#
-# @example
-#    echo "test: $(say-hello World)"
-#
-# @arg $1 string A value to print
-#
-# @exitcode 0 If successful.
-# @exitcode 1 If an empty string passed.
-#
-# @see validate()
 
 RED="\033[0;31m"
 GREEN="\033[0;32m"
 RESET="\033[0m"
 
-# @description spinner().
+
 # Define spinner function for slow tasks
 # courtesy of http://fitnr.com/showing-a-bash-spinner.html
 spinner()
@@ -44,7 +34,7 @@ spinner()
     done
     printf "    \b\b\b\b"
 }
-# @description check_package_installed().
+
 # Check if the packages required for the installation is installed
 # on the system.
 check_package_installed()
