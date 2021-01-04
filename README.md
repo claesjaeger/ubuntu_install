@@ -39,9 +39,9 @@
   <h3 align="center">Ubuntu Install Scripts</h3>
 
   <p align="center">
-    project_description
+    This project is a collection of scripts that installs the programs and packes I use in Ubuntu.
     <br />
-    <a href="https://github.com/claesjaeger/ubuntu_install"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/claesjaeger/ubuntu_install/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/claesjaeger/ubuntu_install">View Demo</a>
