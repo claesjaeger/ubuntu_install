@@ -25,6 +25,7 @@ sudo apt-get install -y mono-complete \
 			openshot-qt \
 			pinta \
 			gnome-tweaks \
+			htop \
 						
 
 # https://forum.kee.pm/t/installing-kee-with-keepassrpc-for-keepass-password-safe-instructions/23
