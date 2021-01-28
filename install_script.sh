@@ -10,6 +10,7 @@ sudo apt-get update
 sudo apt-get install -y mono-complete \
 			keepass2 \
 			grub-customizer \
+			xournal \
 			geany \
 			git \
 			git-flow \
