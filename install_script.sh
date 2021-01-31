@@ -5,6 +5,10 @@
 #sudo add-apt-repository -y ppa:jtaylor/keepass
 #sudo add-apt-repository -y ppa:openshot.developers/ppa
 
+# Set time to use local-time so Ubuntu and windows can co-exists
+# https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
+timedatectl set-local-rtc 1 --adjust-system-clock
+
 sudo apt-get update
  
 sudo apt-get install -y mono-complete \
