@@ -31,7 +31,8 @@ sudo apt-get install -y mono-complete \
 			pinta \
 			gnome-tweaks \
 			htop \
-      powerline \
+			powerline \
+			powerline-gitstatus \
 						
 
 # https://forum.kee.pm/t/installing-kee-with-keepassrpc-for-keepass-password-safe-instructions/23
