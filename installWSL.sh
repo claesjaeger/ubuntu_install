@@ -8,6 +8,10 @@ sudo apt remove -y landscape-common # Remove the package
 sudo apt autoremove -y              # Remove orphaned packages
 rm -rf ~/.landscape/                # Clean up, no longer used
 
+# Update to latests and greatest
+sudo apt update
+sudo apt upgrade -y
+
 # Install packages
 sudo apt install -y git \
                     git-flow \
