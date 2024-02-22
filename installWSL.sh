@@ -31,4 +31,4 @@ mv .ssh org_ssh
 ln -s bash_tools/.bashrc .bashrc
 ln -s bash_tools/vim/.vimrc .vimrc
 ln -s bash_tools/ssh/SGRE .ssh
-ln -s ~/bash_tools/powerline .configpowerline
+ln -s ~/bash_tools/powerline .config/powerline
