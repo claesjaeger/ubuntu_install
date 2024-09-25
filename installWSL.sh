@@ -20,7 +20,10 @@ sudo apt install -y git \
                     powerline \
                     powerline-gitstatus \
                     dos2unix \
-                    nala \
+                    doxygen \
+                    doxygen-gui \
+                    graphviz \
+                    mscgen \
 
 # Get Bash environment
 git clone https://github.com/claesjaeger/bash_tools.git
