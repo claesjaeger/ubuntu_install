@@ -17,6 +17,8 @@ sudo apt install -y git \
                     git-flow \
                     bash-completion \
                     bash-builtins \
+                    util-linux \
+                    bsdmainutils \
                     powerline \
                     powerline-gitstatus \
                     dos2unix \
