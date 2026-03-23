@@ -23,6 +23,7 @@ sudo apt-get install -y git \
                     doxygen \
                     doxygen-gui \
                     mscgen \
+                    python3-pip \
 
 # Get Bash environment
 git clone https://github.com/claesjaeger/bash_tools.git
