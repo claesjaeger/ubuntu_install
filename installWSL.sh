@@ -12,23 +12,22 @@ sudo apt-get upgrade -y
 ## graphviz is installed by plantUML
 ## util-linux should have column, but apprently that is in bsdmainutils
 sudo apt-get install -y git \
-                    git-flow \
-                    bash-completion \
-                    bash-builtins \
-                    util-linux \
-                    bsdmainutils \
-                    powerline \
-                    powerline-gitstatus \
-                    dos2unix \
-                    doxygen \
-                    doxygen-gui \
-                    mscgen \
-                    python3-pip \
+                        git-flow \
+                        bash-completion \
+                        bash-builtins \
+                        util-linux \
+                        bsdmainutils \
+                        powerline \
+                        powerline-gitstatus \
+                        dos2unix \
+                        doxygen \
+                        doxygen-gui \
+                        mscgen \
+                        python3-pip \
 
 # Get Bash environment
 git clone https://github.com/claesjaeger/bash_tools.git
 git clone https://github.com/claesjaeger/bashlib.git
-
 
 # PLANTUML
 PLANTUML_FILE="plantuml_install.sh"
@@ -37,6 +36,15 @@ curl -o $PLANTUML_FILE  -L $PLANTUML_SCRIPT
 chmod +x $PLANTUML_FILE
 bash $PLANTUML_FILE
 rm $PLANTUML_FILE
+
+# Python packages
+pip install mkdocs \
+            pymdown-extensions \
+            mkdocs-material \
+            mkdocs-material[imaging] \
+            mkdocs-git-authors-plugin \
+            mkdocs-git-revision-date-localized-plugin \
+            mkdocs-to-pdf \ 
 
 # Setup bash environment
 mv .bashrc org_bashrc
