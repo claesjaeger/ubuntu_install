@@ -11,7 +11,8 @@ sudo apt-get upgrade -y
 # Install packages
 ## graphviz is installed by plantUML
 ## util-linux should have column, but apprently that is in bsdmainutils
-sudo apt-get install -y git \
+sudo apt-get install -y vim \
+                        git \
                         git-flow \
                         bash-completion \
                         bash-builtins \
