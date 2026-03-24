@@ -17,6 +17,7 @@ sudo apt-get install -y git \
                         bash-builtins \
                         util-linux \
                         bsdmainutils \
+                        iputils-ping \
                         powerline \
                         powerline-gitstatus \
                         dos2unix \
@@ -24,6 +25,7 @@ sudo apt-get install -y git \
                         doxygen-gui \
                         mscgen \
                         python3-pip \
+                        python-is-python3 \
 
 # Get Bash environment
 git clone https://github.com/claesjaeger/bash_tools.git
@@ -44,7 +46,8 @@ pip install mkdocs \
             mkdocs-material[imaging] \
             mkdocs-git-authors-plugin \
             mkdocs-git-revision-date-localized-plugin \
-            mkdocs-to-pdf \ 
+            mkdocs-to-pdf \
+            zensical \
 
 # Setup bash environment
 mv .bashrc org_bashrc
