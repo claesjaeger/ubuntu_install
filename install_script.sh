@@ -1,15 +1,16 @@
 #!/usr/bin/env bash
 
 # -----------private--------------------------
-#sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer
-#sudo add-apt-repository -y ppa:jtaylor/keepass
-#sudo add-apt-repository -y ppa:openshot.developers/ppa
+sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer
+sudo add-apt-repository -y ppa:jtaylor/keepass
+sudo add-apt-repository -y ppa:openshot.developers/ppa
 
 # Set time to use local-time so Ubuntu and windows can co-exists
 # https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
 timedatectl set-local-rtc 1 --adjust-system-clock
 
 sudo apt-get update
+sudo apt-get upgrade -y
  
 sudo apt-get install -y mono-complete \
 			keepass2 \
@@ -40,20 +41,17 @@ curl -s https://api.github.com/repos/kee-org/keepassrpc/releases/latest | jq -r 
 #wget https://github.com/kee-org/keepassrpc/releases/download/v1.9.0/KeePassRPC.plgx
 #sudo mv KeePassRPC.plgx /usr/lib/keepass2/Plugins/
 
-#wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb
-#sudo apt-get install -y ./slack-desktop-*.deb
-#rm slack-desktop-*.deb
-
-
-# run this guide
-#https://docs.google.com/document/d/1eESvpygRr0zT-MD2NPkzh30kqdcwkLM8BtZNxdL4gXc/edit#
-
-#run bootstrap
-#copy ssh-keys
-#run bor cli
-
 # bash-tools claes
-#git clone git@github.com:claesjaeger/.bash_tools.git
+git clone https://github.com/claesjaeger/bash_tools.git
+git clone https://github.com/claesjaeger/bashlib.git
+
+mv .bashrc org_bashrc
+mv .ssh org_ssh
+ln -s bash_tools/.bashrc .bashrc
+ln -s bash_tools/vim/.vimrc .vimrc
+ln -s bash_tools/ssh/Private .ssh
+cd .config
+ln -s ~/bash_tools/powerline powerline
                  
 
 
